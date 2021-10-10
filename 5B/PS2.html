@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code With Me</title>
+    <link rel="stylesheet" href="PS2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Andada+Pro&family=Lobster&family=Nunito+Sans:wght@200&family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav><strong class="brand">Code With Me</strong></nav>
+    
+    <main>
+        <header class="progName"><h1>Program to obtain count of digits in a number</h1></header>
+        <section>
+            <h2>
+                Problem Statement
+            </h2>
+            <p>Write a code in any programming language that counts the
+                digits in a number</p>
+        </section>
+        <br>
+        <hr>
+        <br>
+        <section>
+            <h2>
+                Code
+            </h2>
+            <p>We write the program in Python</p>
+            <div class="theCode">
+                <code>
+
+                    <dfn># We write the recursive call function.</dfn><br><br>
+                    def countDigit(n):<br>
+                    &nbsp;&nbsp;if n/10 == 0:<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;return 1<br>
+                    &nbsp;&nbsp;return 1 + countDigit(n // 10)<br>
+                    <br>
+                    n = int(input())<br>
+                    <br>
+                    <samp># Calling the Function in main</samp><br>
+                    print(countDigit(n))
+                </code>
+            </div>
+        </section>
+        <br>
+        <hr>
+        <br>
+        <section>
+            <h2>
+                Testcases
+            </h2>
+            <article>
+                <h4>Sample Input</h4>
+                <h5>68328</h5>
+                <h4>Sample Output</h4>
+                <h5>5</h5>
+            </article>
+            <br>
+            <article>
+                <h4>Sample Input</h4>
+                <h5>2</h5>
+                <h4>Sample Output</h4>
+                <h5>1</h5>
+            </article>
+        </section>
+        <br>
+        <hr>
+        <br>
+        <section>
+            <h2>Variables</h2>
+            <article>
+                <var>n</var> - We shall traverse the recursive function through this n that increases the count for every number encountered.
+            </article>
+        </section>
+        <br>
+        <hr>
+        <br>
+        <section>
+            <h2>Complexity</h2>
+            <article>
+                <p>Time Complexity: O(n)</p>
+            </article>
+        </section>
+        <br>
+        <hr>
+        <br>
+        <section>
+            <h2>Alternate Method</h2>
+            <article>
+                <h5>Using the Logarithm</h5>
+                <p>We shall make use of the property of log<sub>10</sub> n<br>
+                Essentially a number with 10<sup>4</sup> degree value can hence be identified to have a count of 4 digits.
+            </p>
+            </article>
+        </section>
+        <br>
+        <hr>
+        <br>
+        <section>
+            <h2>References</h2>
+            <article class="refs">
+                GeeksForGeeks Article - <a target="_blank" href="https://www.geeksforgeeks.org/program-count-digits-integer-3-different-methods/">link</a>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <h6>Made with ❤️ by Devang</h6>
+    </footer>
+</body>
+</html>

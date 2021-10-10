@@ -1,0 +1,70 @@
+body{
+    background-image: linear-gradient(to left bottom, #fbe964, #fae461, #f8df5f, #f7db5c, #f5d65a);
+}
+
+#brandName{
+    color: #289672;
+    font-size: 1.4rem;
+}
+
+.mainLine{
+    text-align: center;
+    color: #01937C;
+    font-size: 3rem;
+    font-family: 'Andada Pro', serif;
+}
+
+header{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.quoteCard{
+    border: thick double #281957;
+    border-radius: 20px;
+    margin: 5px;
+    background-image: linear-gradient(to left bottom, #efdcef, #e3bfeb, #d1a4ea, #b98bec, #9874ef);
+}
+
+.quoteDesign{
+    padding: 2%;
+    text-align: center;
+}
+
+.theQuote{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 600;
+}
+
+.author{
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #1f1d1d;
+    font-weight: 500;
+}
+
+.authorBlock {
+    text-align: center;
+}
+
+footer{
+    margin: 0;
+}
+
+footer h6{
+    margin: 0;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #F8F5F1;
+    color: #387C6D;
+}
+
+hr{
+    width: 10%;
+    margin-bottom: 10px;
+    background-color: black;
+}
