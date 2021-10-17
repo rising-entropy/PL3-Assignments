@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- Metadata of the Webpage -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css">
     <!-- Character-set Metadata -->
@@ -47,8 +48,11 @@
             <nav class="header-links" style="margin-top: 2%">
                 <a class="link" href="#about" data-scroll>About Me</a>
                 <a class="link" href="#tech-stack" data-scroll>Tech-Stack</a>
+                <a class="link" href="#education" data-scroll>Education</a>
                 <a class="link" href="#projects" data-scroll>Projects</a>
-                
+                <a href="#achievementsAndActivities" class="link">Achievements</a>
+                <a href="#hometown" class="link">Hometown</a>
+                <a href="#contactMe" class="link">Contact Me</a>
             </nav>
         </div>
         <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
@@ -61,11 +65,84 @@
             <h1>My Story</h1>
             <img src="./assets/img/Professional-Picture-Me.png" alt="Professional Me" width="22%" />
             <article><p style="font-size: 1.1rem; margin-top: 3%; margin-bottom: 3%;">
-                I am a third year Computer Science and Engineering student at Walchand College of Engineering, Sangli pursuing undergraduate degree. I am primarily Full-Stack and Python Developer with minor experience in DevOps and Cloud. I am currently exploring Flutter, Machine Learning
-                and Algorithm Design.<br><br> Besides this, I am an active part of several communities of my college and I lead the Google Developer Student's Club of WCE. I love to organise and take part in events. My hobbies include Reading, playing Video Games and watching & playing Football.<br><br>
-                I aim to build software that is creative, unique and solves distinctive problems.
+                I am a third year Computer Science and Engineering student at Walchand College of Engineering, Sangli pursuing undergraduate degree. I am primarily Full-Stack and Python Developer with minor experience in DevOps and Cloud. I am currently exploring Flutter, Machine Learning and Algorithm Design.<br><br>
+                Besides this, I am an active part of several communities of my college and I lead the Google Developer Student's Club of WCE. 
+                I love to organise and take part in events. My hobbies include Reading, playing Video Games and watching & playing Football.
+                <br>
+                I am fluent in English, Hindi and Marathi in all the LSRW.
+                <br><br>
+                I aim to build software that is creative, unique and solves distinctive problems. <br>
+
             </p><article>
         </div>
+
+        <section id="education">
+            <div class="user-details" style="margin-top: 8%;">
+                <h1>Education</h1>
+            </div>
+            <div class="user" style="margin-top: 1%;">
+                <div class="container container-fluid">
+                    <div class="row">
+                        <div class="institute" style="text-align: left;">
+                            <h3>Walchand College of Engineering, Sangli</h3>
+                            <div class="insti-data" style="font-size: 1.1rem;">
+                                <ul>
+                                    <li>Third Year Computer Science and Engineering student</li>
+                                    <li>CGPA: 8.91</li>
+                                    <li>Positions of responsibility: Google DSC Lead, Sessions Team of WCE-ACM, Joint Secretary of PACE</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="institute" style="text-align: left;">
+                            <h3>Dr. DY Patil ACS Jr. College</h3>
+                            <div class="insti-data" style="font-size: 1.1rem;">
+                                <ul>
+                                    <li>Higher Secondary Education</li>
+                                    <li>Score: 79.85%</li>
+                                    <li>Computer Science College Topper 190/200</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="institute" style="text-align: left;">
+                            <h3>St. Alphonsa High School, Kalewadi</h3>
+                            <div class="insti-data" style="font-size: 1.1rem;">
+                                <ul>
+                                    <li>Secondary School Education</li>
+                                    <li>Score: 92.40%</li>
+                                    <li>School Prefect</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications" style="margin: auto; text-align: center; align-items: center;">
+            <div class="user-details" style="margin-top: 8%;">
+                <h1>Certifications</h1>
+            </div>
+            <div class="user" style="margin-top: 1%; text-align: center;">
+                <div class="container container-fluid text-center">
+                    <div class="row">
+                        <div>
+                            <h3>Codechef Certified Data Structures and Algorithms Programme (Foundation)</h3>
+                            <embed src="./assets/ccdsap.pdf" type="application/pdf" style="display:block; margin: auto;">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div>
+                            <h3>Python for Everybody Course by University of Michigan (with Honors)</h3>
+                            <embed src="./assets/py4e.pdf" type="application/pdf" style="display:block; margin: auto;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!-- User Specifics -->
         <section id="tech-stack">
@@ -80,9 +157,11 @@
                     <i class="devicon-cplusplus-plain colored"></i>
                     <i class="devicon-javascript-plain colored"></i>
                     <i class="devicon-java-plain-wordmark colored"></i>
-                    <p>
-                        My favorite languages for development, programming and automation.
-                    </p>
+                    <aside>
+                        <p>
+                            My favorite languages for development, programming and automation.
+                        </p>
+                    </aside>
                 </div>
 
                 <!-- Technology Stack #2: Front-End -->
@@ -92,9 +171,11 @@
                     <i class="devicon-bootstrap-plain colored"></i>
                     <i class="devicon-materialui-plain colored"></i>
                     <i class="devicon-jquery-plain-wordmark colored"></i>
-                    <p>
-                        My preferred technologies for front-end web development and component design.
-                    </p>
+                    <aside>
+                        <p>
+                            My preferred technologies for front-end web development and component design.
+                        </p>
+                    </aside>
                 </div>
 
                 <!-- Technology Stack #3: Back-End -->
@@ -104,9 +185,11 @@
                     <i class="devicon-nodejs-plain colored"></i>
                     <i class="devicon-mongodb-plain-wordmark colored"></i>
                     <i class="devicon-postgresql-plain colored"></i>
-                    <p>
-                        My preferred technologies for back-end web programming and database architecture.
-                    </p>
+                    <aside>
+                        <p>
+                            My preferred technologies for back-end web programming and database architecture.
+                        </p>
+                    </aside>
                 </div>
 
                 <!-- Technology Stack #4: Tools -->
@@ -116,13 +199,14 @@
                     <i class="devicon-visualstudio-plain colored"></i>
                     <i class="devicon-github-plain colored"></i>
                     <i class="devicon-windows8-original colored"></i>
-                    <p>
-                        My favorite tools for version control, code editing with my preferred work-environments.
-                    </p>
+                    <aside>
+                        <p>
+                            My favorite tools for version control, code editing with my preferred work-environments.
+                        </p>
+                    </aside>
                 </div>
             </div>
         </section>
-        
     </section>
 
     <!-- Projects Section -->
@@ -130,8 +214,6 @@
         <div class="user-details">
             <h1>Featured Projects</h1>
         </div>
-
-
         <div class="user-projects">
             <div class="images-right">
                 <img alt="COVID Management UI" src="./assets/img/COVID-Management.PNG" />
@@ -230,31 +312,119 @@
         </div>
 
 
-        <div class="user-projects">
-            <div class="images-left">
-                <img alt="Attendance Management System" src="./assets/img/Manmage.PNG" />
+        <section id="achievementsAndActivities">
+            <div class="user-details" style="margin-top: 8%;">
+                <h1>Achievements and Activities</h1>
             </div>
-            <div class="contents-right" style="text-align: center;">
-                <h3>Proximites - Attendance Management System</h3>
-                <div>
-                    <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/c.svg" style="
-                filter: invert(22%) sepia(77%) saturate(1486%)
-                  hue-rotate(183deg) brightness(101%) contrast(103%);
-              " />
+            <div class="user" style="margin-top: 1%;">
+                <div class="container container-fluid" style="font-size: 1.2rem; text-align: left;">
+                    <ul>
+                        <li>Delivered sessions on Open Source, Backend and Version Control</li>
+                        <li>Gave a talk on 'Starting First Conversations'</li>
+                        <li>Part of various awarness campaigns at school-level</li>
+                        <li>Anchor for ASG ’20 and various school-level events</li>
+                        <li>Co-organised multiple ACM, PACE and ACSES Club-Services</li>
+                        <li>3 time school-topper of English Marathon</li>
+                    </ul>
                 </div>
-                <p style="text-align: justify;">
-                    Made an Attendance Manager completely in C, using additional GNU libraries. It was the attempt a Software Project, albeit with a Team. It was a wonderful experience creating it and it also has a wonderful side-functionality; a CGPA Calculator!
-                </p>
-                <a class="project-link" target="_blank" href="https://github.com/rising-entropy/Manmage">
-          Check out!
-        </a>
             </div>
-        </div>
+        </section>
+
+        <section id="myVideo">
+            <div class="user-details" style="margin-top: 8%;">
+                <h1>Video Resume</h1>
+            </div>
+            <iframe width="800" height="400" class="text-center" style="display:block; margin: auto;" src="https://www.youtube.com/embed/1Mxxi3i2WH0"></iframe>
+        </section>
+
+        <section id="hometown" style="margin-top: 3%">
+            <div class="user-details" style="margin-top: 8%;">
+                <h1>Hometown</h1>
+                <h2>Pimpri Chinchwad</h2>
+            </div>
+            <div class="container container-fluid">
+                <div class="row">
+                    <div class="col-3 col-sm-12">
+                        <div class="container"><img src="https://www.asmibmr.edu.in/wp-content/uploads/2020/02/science-park-1024x683.jpg" style="max-width: 100%; max-height: 100%;" alt="science park" class="img img-fluid"></div>
+                    </div>
+                    <div class="col-3 col-md-12">
+                        <div class="container"><img src="https://www.asmibmr.edu.in/wp-content/uploads/2020/02/mumbai-pune-highway-1024x536.jpg" style="max-width: 100%; max-height: 100%;" alt="science park" class="img img-fluid"></div>
+                    </div>
+                    <div class="col-3 col-md-12">
+                        <div class="container"><img src="https://www.asmibmr.edu.in/wp-content/uploads/2020/02/1-appu-ghar-1024x592.jpg" style="max-width: 100%; max-height: 100%;" alt="science park" class="img img-fluid"></div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <article><p style="font-size: 1.1rem; margin-top: 4%; margin-bottom: 3%;">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The twin cities of Pimpri-Chinchwad, governed by the Pimpri Chinchwad Municipal Corporation (PCMC), are located 15 km from the Pune city Centre in the state of Maharashtra. Widely known as 'Industrial Township', the Pimpri-Chinchwad area is also called ‘Detroit of the East’. It is home to over 4000 industrial units in the large, medium and small sectors, which include some of the most reputed MNCs and companies of the country. When viewed as a unified geographical unit, Pimpri-Chinchwad and Pune make up one of India's largest industrial areas, making it the second-largest industrial city in Maharashtra after Mumbai.
+                <br><br>
+            </p><article>
+                <div class="user" style="margin-top: 1%;">
+                    <div class="tech">
+                        <h3>Elpro Mall</h3>
+                        <img width="300" style="border-radius: 10px;" src="./assets/img/elpro.jpg" class="img img-fluid" height="180">
+                        <aside>
+                            <p>
+                                Newest mall in the city.
+                            </p>
+                        </aside>
+                    </div>
+                    <div class="tech">
+                        <h3>Ravet Bridge</h3>
+                        <img width="300" style="border-radius: 10px;" src="./assets/img/ravetBridge.jpg" class="img img-fluid" height="180">
+                        <aside>
+                            <p>
+                                Wonderful hang-out spot.
+                            </p>
+                        </aside>
+                    </div>
+                    <div class="tech">
+                        <h3>Chaphekar Wada</h3>
+                        <img width="300" style="border-radius: 10px;" src="./assets/img/chapekar.jpg" class="img img-fluid" height="180">
+                        <aside>
+                            <p>
+                                Historical destination of the house of the Chaphekar brothers.
+                            </p>
+                        </aside>
+                    </div>
+                </div>
+        </section>
+
+        <section id="contactMe" style="margin-top: 1%">
+            <div class="user-details" style="margin-top: 8%;">
+                <h1>Reach Me</h1>
+            </div>
+            <div class="user" style="margin-top: 1%; font-size: 1.1rem; margin: auto;">
+                <div class="container container-fluid">
+                    <form id="contactForm">
+                        <div class="form-group" style="margin-top: 2%; margin-bottom:1%;">
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email address" required>
+                        </div>
+                        <div class="form-group" style="margin-top: 2%; margin-bottom:1%;">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group" style="margin-top: 2%; margin-bottom:1%;">
+                            <textarea class="form-control" id="message" rows="7" placeholder="Enter your message" required></textarea>
+                        </div>
+                        <br>
+                        <button type="submit" class="btn btn-primary btn-lg mb-2">Submit</button>
+                    </form>
+                </div>
+            </div>
+            
+        </section>
+
     </section>
+
+    
 
     <footer class="footer">
         <p>Made with 🤍 by Devang</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="./assets/js/sweet-scroll.min.js"></script>
     <script src="./assets/js/main.js"></script>
 </body>
